@@ -2,13 +2,14 @@
 
 logo () {
 echo -e "$(tput setaf 1)
-█    ██   ▄▄▄▄▄▄ ▀▄    ▄ ██   ▄█ █▄▄▄▄ ▄█▄    █▄▄▄▄ ██   ▄█▄    █  █▀ 
-█    █ █ ▀   ▄▄▀   █  █  █ █  ██ █  ▄▀ █▀ ▀▄  █  ▄▀ █ █  █▀ ▀▄  █▄█   
-█    █▄▄█ ▄▀▀   ▄▀  ▀█   █▄▄█ ██ █▀▀▌  █   ▀  █▀▀▌  █▄▄█ █   ▀  █▀▄   
-███▄ █  █ ▀▀▀▀▀▀    █    █  █ ▐█ █  █  █▄  ▄▀ █  █  █  █ █▄  ▄▀ █  █  
-    ▀   █         ▄▀        █  ▐   █   ▀███▀    █      █ ▀███▀    █   
-       █                   █      ▀            ▀      █          ▀    
-      ▀                   ▀                          ▀                "
+ ,_       
+ ,'  `\,_   
+ |_,-'_)    
+ /##c '\  ( 
+' |'  -{.  )
+  /\__-' \[]
+ /`-_`\     
+ '     \  "
 }
 start () {
 echo -e "$(tput setaf 2)Starting script:"
@@ -22,9 +23,9 @@ sleep 0.4
 clear
 }
 option () {
-echo -e "$(tput setaf 3) \n               A lazy script for aircrack-ng, wifi hacking.
+echo -e "$(tput setaf 3) \n               sherlock wifi hack.
         The script only Works if your wifi adapter has monitor mode."
-echo -e "$(tput setaf 2)\n                       Developed by Sandesh (3xploitGuy)"
+echo -e "$(tput setaf 2)\n                       Developed by max/cae"
 echo -e "\n$(tput setaf 3)                        [ Select Option To Continue ]\n\n"
 echo "      $(tput setaf 1)[$(tput setaf 4)1$(tput setaf 1)] $(tput setaf 2)Wifi Hacking"
 echo "      $(tput setaf 1)[$(tput setaf 4)2$(tput setaf 1)] $(tput setaf 2)Wifi Jammer"
